@@ -9,8 +9,8 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 const con = mysql.createConnection({
   host: "mysql",
-  user: "root",
-  password: "password"
+  user: "user1",
+  password: "master"
 });
 
 con.connect(function(err) {
